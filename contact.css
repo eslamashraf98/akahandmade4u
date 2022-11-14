@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+Body{
+      width: 80%;
+      margin: auto;
+      height: 1450px;
+      background:linear-gradient( pink, white 100%);
+      text-align:center ;
+  }
+h1{
+    text-align: center;
+      font-size: 40px;
+      margin: 30px;
+        }
+  h2{
+     font-size: 32px; 
+     margin: 30px; 
+  }
+  a{
+      color: black;
+      text-decoration:none;
+      text-align: center;
+      font-size: 30px;
+      padding: 15px;
+  }
+  button{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin: 5px auto;
+      text-align: center;
+      width: 250px;
+      height: 100px;
+      background-color:rgb(248, 220, 220);
+      border: 1px solid white;
+      border-radius: 10px;
+      cursor:pointer;
+  }
+  
+  #logo{
+      margin: 30px auto;
+      box-shadow:5px 10px 5px #444,-5px -5px 10px #888;
+      border-radius:20px;
+      width: 300px;
+      height: 300px;
+  }
+  .shadow{
+      text-shadow:5px 5px 5px #999;
+      font-style:italic;
+  }
+  #face{
+    color: rgb(62, 111, 202);
+  }
+  #insta{
+    padding: 10px;
+    background: -webkit-linear-gradient(
+     200deg, #970b97, #ff0000, #ffff00);
+     -webkit-text-fill-color:transparent;
+     -webkit-background-clip:text;
+  }
+  #tiktok{
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-shadow: cyan -2px 0 0, red 2px 0 0;
+  }
+  #f:hover{ 
+    background-color: rgb(62, 111, 202);
+    color: white;
+  }
+  #f a:hover{
+    color: white;
+    padding: 40px;
+  }
+  #i:hover{
+    color: white;
+    background:  
+     
+     linear-gradient( #4b0492, transparent), 
+     
+   linear-gradient( 
+     205deg, #d047d1, #ff0000,    #ffff00);
+  }
+  #i a:hover{
+    color: white;
+    -webkit-text-fill-color: white;
+    padding: 40px;
+    font-size: 30px;
+  }
+  #t:hover{
+    background-color: black;
+    text-shadow: cyan -3px 0 0, red 3px 0 0;
+  }
+  #t a:hover{
+    color:rgb(255, 255, 255);
+    padding: 40px;
+  }
+  hr{
+    margin-top: 0px;
+    margin: 0px auto;
+    background-color: black;
+    width: 80%;
+    height: 2px;
+    text-align: center;
+  }
+  h4{
+    color: #666;
+    margin: 10px;
+  }
+  #website img{
+    width: 25px;
+    height: 25px;
+
+    margin-top: 17px;
+  }
+  #website{
+    width: 130px;
+    height: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #website p{
+    font-size: 25px;
+    float: right;
+    line-height: 55px;
+    margin: 1px;
+  }
+  #website:hover{
+    background-color: rgba(255, 0, 0, 0.11);
+    width: 120px !important;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+  }
+  @media only screen and (max-width: 600px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        width: auto;
+        height: 1300px;
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+          font-size: 30px;
+          margin: 30px;
+    }
+  }
