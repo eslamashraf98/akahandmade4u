@@ -179,6 +179,15 @@
         filter: saturate(1.5);
         transition: .5s all !important;
       }
+      #perc{
+        background-color: black;
+        color: white;
+        width: 20%;
+        text-align: center;
+        margin: 0px;
+        font-size: 12px;
+        overflow: visible !important;
+      }
       .swipe{
         -webkit-animation: cssAnimation 5s forwards;
         animation: cssAnimation 5s forwards;
@@ -260,6 +269,10 @@
       border-radius: 10px !important;
      }
 @media (max-width: 350px){
+      #perc {
+          width: 18%;
+          font-size: 12px;
+        }
   .swipe p{
       font-size: 18px !important;
       margin-top: 170px !important;
@@ -275,6 +288,10 @@
 
 }
 @media (min-width: 351px) and (max-width: 375px) {
+      #perc {
+          width: 15%;
+          font-size: 13px;
+        }
   .swipe p {
     font-size: 20px !important;
     margin-top: 170px !important;
@@ -299,6 +316,10 @@
     }
 }
 @media (min-width: 376px) and (max-width: 390px) {
+      #perc {
+          width: 15%;
+          font-size: 13px;
+        }
   .swipe p {
     font-size: 22px !important;
     margin-top: 195px !important;
@@ -323,6 +344,10 @@
     }
 }
 @media (min-width: 391px) and (max-width: 415px) {
+        #perc {
+          width: 15%;
+          font-size: 13px;
+        }
   .swipe p {
     font-size: 23px !important;
     margin-top: 200px !important;
@@ -347,6 +372,10 @@
     }
 }
 @media (min-width: 416px) and (max-width: 450px) {
+        #perc {
+          width: 15%;
+          font-size: 14px;
+        }
   .swipe p {
     font-size: 24px !important;
     margin-top: 220px !important;
@@ -369,6 +398,10 @@
     }
 }
 @media (min-width: 451px) and (max-width: 500px){
+        #perc {
+          width: 14%;
+          font-size: 14px;
+        }
   .swipe p {
       font-size: 25px !important;
       margin-top: 235px !important;
@@ -384,6 +417,10 @@
     }
 }
 @media (min-width: 501px) and (max-width: 640px){
+        #perc {
+            width: 12%;
+            font-size: 15px;
+          }
   .swipe p {
       font-size: 25px !important;
       margin-top: 250px !important;
@@ -399,6 +436,10 @@
     }
 }
 @media (min-width: 641px) and (max-width: 768px){
+          #perc {
+            width: 13%;
+            font-size: 15px;
+          }
   .swipe p {
       font-size: 27px !important;
       margin-top: 300px !important;
@@ -414,6 +455,7 @@
     }
 }
 @media (min-width: 500px) and (max-width: 990px){
+
     em {
       font-size: 20px !important;
     }
@@ -422,6 +464,7 @@
     }
   }
 @media (min-width: 990px) and (max-width: 1349px){
+
         .float {
         margin: auto !important;
         }
@@ -439,6 +482,7 @@
         }
       }
 @media screen and (min-width: 1350px){
+
     #logo {
        width: 500px;
       height: auto;
@@ -522,7 +566,7 @@
     float: right;
     display: inline;
     margin-right: -210px;
-    margin-top: -1321px;
+    margin-top: -1360px;
     }
     .blackbag{
       margin-left: -5px !important;
