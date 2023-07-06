@@ -188,6 +188,10 @@
         font-size: 12px;
         overflow: visible !important;
       }
+      .card-img{
+        width: 100% !important;
+        margin: auto !important;
+      }
       .swipe{
         -webkit-animation: cssAnimation 5s forwards;
         animation: cssAnimation 5s forwards;
@@ -506,25 +510,25 @@
     float: right;
     display: inline;
     margin-right: -27px;
-    margin-top: -3345px;
+    margin-top: -3310px;
     }
     .floatbaby {
     float: right;
     display: inline;
     margin-right: -210px;
-    margin-top: -1860px !important;
+    margin-top: -1764px !important;
     }
     .floatmen {
     float: right;
     display: inline;
     margin-right: -210px;
-    margin-top: -1030px !important;
+    margin-top: -1000px !important;
     }
     .floatacc {
     float: right;
     display: inline;
     margin-right: -210px;
-    margin-top: -1570px !important;
+    margin-top: -1560px !important;
     }
     .floatport {
     float: right;
@@ -542,25 +546,25 @@
     float: right;
     display: inline;
     margin-right: -210px;
-    margin-top: -835px;
+    margin-top: -810px;
     }
     .floatcost {
       float: right;
       display: inline;
       margin-right: -210px;
-      margin-top: -550px;
+      margin-top: -545px;
     }
     .floatbelt {
     float: right;
     display: inline;
     margin-right: -210px;
-    margin-top: -275px;
+    margin-top: -265px;
     }
     .floatother {
     float: right;
     display: inline;
     margin-right: -210px;
-    margin-top: -803px;
+    margin-top: -770px;
     }
     .floatsales {
     float: right;
